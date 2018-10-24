@@ -1,1 +1,0 @@
-remove emacs.bat to not confuse some people
