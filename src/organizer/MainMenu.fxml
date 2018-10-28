@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<MenuBar xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="organizer.MainMenuController">
+  <menus>
+    <Menu mnemonicParsing="false" text="File" />
+    <Menu mnemonicParsing="false" text="Edit" />
+    <Menu mnemonicParsing="false">
+         <graphic>
+            <Label fx:id="timerLabel" onMousePressed="#openTimer">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/hourglass.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+    </Menu>
+      <Menu mnemonicParsing="false">
+         <graphic>
+            <Label fx:id="toDoLabel" onMousePressed="#openToDo">
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Untitled.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </graphic>
+      </Menu>
+  </menus>
+</MenuBar>

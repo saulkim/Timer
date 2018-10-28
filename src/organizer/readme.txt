@@ -1,20 +1,25 @@
-todo (not the java class)
 
--rename ToDo.java into something else because it's confusing with my bigger todo list
--there is no mouseevent when clicking on blank area surrounding menu icon images, fix it to include icons,
-or maybe increase icon label size
+Todo
 
---merge mousepress event into one method so i dont have to retype it multiple times with each icon
+-rename todo into something else so it doesnt get confusing with the class
+-make a home page so i dont have to default load timerview
 
+[to add]
+-game area with self playing ai section
+-pet area like the chao garden section
+-ant farm? section
+-stretch animation section
 
-things to add
--hourglass timer
--todo list
--stretch animations
--self playing games n ai
+[timer improvement ideas]
+-add moving hourglass display in center
+-make initial timer values customizable
+-*prevent large numbers from breaking program
+-make one of the labels show minute/seconds left
+-cleanup code to reduce redundancy
+-center display, maybe countdown symbols from other languages and symbols?
 
+[todo, maybe name lastsince?]
+-think of a good name
 
-
-[todo] 
-
--get better icon than the untitled.png i have now
+[code improvement ideas]
+-
