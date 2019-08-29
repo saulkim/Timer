@@ -5,9 +5,6 @@ Todo
 -make a home page so i dont have to default load timerview
 
 [to add]
--game area with self playing ai section
--pet area like the chao garden section
--ant farm? section
 -stretch animation section
 
 [timer improvement ideas]
